@@ -1,0 +1,27 @@
+.color-class {
+    color: #bea44d;
+}
+
+.header-bg {
+
+    background-color: #f9f8f3;
+}
+.header-bottom .col-md-9 ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding: 5px;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+.header-bottom .col-md-9 ul li a:hover {
+
+    border-top: 5px solid #bea44d;
+
+    border-bottom: 5px solid #bea44d;
+    border-radius: 10px;
+    transition: 0.2s;
+}
